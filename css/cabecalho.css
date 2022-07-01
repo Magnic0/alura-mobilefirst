@@ -14,7 +14,8 @@
 
     border-bottom: 1px solid var(--borda-cabecalho-mobile);
 
-    position: absolute;
+    position: relative;
+    background-color: var(--bg-chamada-mobile);
 }
 
 .cabecalho__logo {
@@ -40,6 +41,9 @@
         flex-direction: row;
         justify-content: space-between;
         border-bottom: none;
+
+        position: absolute;
+        background-color: unset;
     }
 
     .cabecalho__link {
