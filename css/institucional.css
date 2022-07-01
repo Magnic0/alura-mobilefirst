@@ -10,6 +10,10 @@
     padding-bottom: 2rem;
 }
 
+.institucional__conteudo {
+    padding-bottom: 2rem;
+}
+
 .institucional__titulo {
     color: var(--cinza-escuro);
     font-weight: 700;
@@ -51,4 +55,39 @@
 
 .institucional__video {
     width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+    .institucional__contato-email {
+        display: inline-block;
+    }
+
+    .institucional__video {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .institucional {
+        flex-direction: column;
+    }
+
+    .institucional__conteudo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .institucional__conteudo--inside {
+        text-align: left;
+    }
+
+    .institucional__video {
+        align-self: center;
+        width: 375px;
+    }
+
+    .institucional__contato-email {
+        display: block;
+    }
 }

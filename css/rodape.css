@@ -34,3 +34,30 @@
 
     margin: 0 .5rem .7rem;
 }
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        align-items: flex-start;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .rodape__imagens {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .rodape__logo {
+        width: 192px;
+    }
+
+    .rodape__navegacao {
+        display: flex;
+        padding-top: .5rem;
+        text-align: left;
+        justify-content: space-between;
+        width: 600px;
+    }
+}
